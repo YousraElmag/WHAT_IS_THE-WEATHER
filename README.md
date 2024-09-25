@@ -39,6 +39,6 @@ This app goes beyond the traditional weather app by providing users with valuabl
 ![Example Image](src/assets/Screenshot%202024-09-25%20at%2011.43.53.png)
 ![Example Image](src/assets/Screenshot%202024-09-25%20at%2011.44.01.png)
 
-[Link Text](https://yousrweather.netlify.app/)
+[Live-demo](https://yousrweather.netlify.app/)
 
 
