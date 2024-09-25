@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import RanderWeather from './components/RanderWeather';
 import Search from './components/Search';
 import NavBar from './components/NavBar';
-import Footer from './components/Footer';
+import Footer from './components/footer'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
