@@ -49,7 +49,7 @@ const{
   return (
     
     <div className={isAlternate ? AlternateBackground : Background}>
-      <i className={`fa-regular ${isAlternate ? 'fa-moon' : 'fa-sun'}`} onClick={toggleMood}></i>
+      <i className={`fa-regular ${isAlternate ? 'fa-sun' : 'fa-moon'}`} onClick={toggleMood}></i>
       <div className={isAlternate ? AlternateCardColor : CardColor}>
         <h2>{currentWeather.name} Now !!! <span>{currentWeather.weather[0].description}</span></h2>
         <h4>{formattedTime}</h4>
@@ -81,7 +81,7 @@ const{
         <div className="data">
           <div className="img">
             
-              <img src={randomDayImage} alt="Weather" style={{ width: '200px' }} />
+              <img src={randomNightImage} alt="Weather" style={{ width: '200px' }} />
             
           </div>
           <div className="all">

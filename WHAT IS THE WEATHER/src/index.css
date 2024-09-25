@@ -299,7 +299,7 @@ button{
  
 background: linear-gradient(to top,#10002B,#240046,#3C096C,#5A189A);
 }
-.page-container .weather-section{}
+
 .weather-section .tips{
   background: #0000004f;;
 }
@@ -340,15 +340,13 @@ background: linear-gradient(to top,#10002B,#240046,#3C096C,#5A189A);
       font-style: normal;
     }
     
-/* start media  */
-/* Base styles for large screens */
 
-
-/* Styles for medium screens (max-width: 1200px) */
-
-/* Styles for tablets and smaller screens (max-width: 768px) */
 @media (max-width: 768px) {
- /* For screen width around 733px */
+.fa-regular{
+  top: 78px;
+        left: 68%;
+
+}
  .logo{
   font-weight: 100;
   font-size: 13px;
@@ -439,6 +437,10 @@ display: none;
 
 /* Styles for mobile phones (max-width: 576px) */
 @media (max-width: 576px) {
+  .fa-regular{
+    top: 78px;
+    left: 68%;
+  }
   h1 {
     font-size: 1.8em;
   }

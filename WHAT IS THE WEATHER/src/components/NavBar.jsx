@@ -51,13 +51,14 @@ const NavBar = () => {
       >
         Search
       </button>
-
-      <button 
-        onClick={() => navigate('/')}
-        style={{ padding: '8px 12px', marginTop: '10px', marginLeft: '10px' }}
-      >
-        Home
-      </button>
+         {location.pathname !== '/' && (
+          <button 
+            onClick={() => navigate('/')}
+            style={{ padding: '8px 12px', marginTop: '10px', marginLeft: '10px' }}
+          >
+            Home
+          </button>
+        )}
     </div>
   
   );
