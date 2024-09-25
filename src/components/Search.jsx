@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useLocation } from 'react-router-dom';
 import Tips from './tips';
-import useRandomImage from './useRandomimage';
+import useRandomImage from './useRandomImage'
 
 const Search = () => {
   const [weatherData, setWeatherData] = useState(null);
