@@ -54,13 +54,8 @@ const{
         <h2>{currentWeather.name} Now !!! <span>{currentWeather.weather[0].description}</span></h2>
         <h4>{formattedTime}</h4>
         <div className="data">
-          <div className="img">
-            {randomDayImage && isDayTime(currentTime) && (
-              <img src={randomDayImage} alt="Weather" style={{ width: '200px' }} />
-            )}
-            {randomNightImage && !isDayTime(currentTime) && (
-              <img src={randomNightImage} alt="Weather" style={{ width: '200px' }} />
-            )}
+          <div className="img">         
+              <img src={randomDayImage} alt="Weather" style={{ width: '200px' }} />   
           </div>
           <div className="all">
             <h3>{currentWeather.main.temp}°C</h3>
@@ -79,11 +74,9 @@ const{
         <h2>{forecastWeather.city.name} Tomorrow !!! <span>{forecastWeather.list[0].weather[0].description}</span></h2>
         <h4>{forecastTimeFormatted}</h4>
         <div className="data">
-          <div className="img">
-            
+          <div className="img">  
               <img src={randomNightImage} alt="Weather" style={{ width: '200px' }} />
-            
-          </div>
+             </div>
           <div className="all">
             <h3>{forecastWeather.list[0].main.temp}°C</h3>
             <h3>feeling: {forecastWeather.list[0].main.feels_like}°C</h3>
