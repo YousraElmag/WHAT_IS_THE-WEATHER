@@ -35,10 +35,9 @@ This app goes beyond the traditional weather app by providing users with valuabl
 - **React**: For building the user interface.
 - **API**: To fetch weather data and city attractions .
 
-![Example Image]('/Users/yousraelmaghraby/WHAT_IS_THE-WEATHER/src/assets/Screenshot 2024-09-25 at 11.43.43.png')
-![Example Image]('/Users/yousraelmaghraby/WHAT_IS_THE-WEATHER/src/assets/Screenshot 2024-09-25 at 11.43.53.png')
-
-![Example Image]('/Users/yousraelmaghraby/WHAT_IS_THE-WEATHER/src/assets/Screenshot 2024-09-25 at 11.44.01.png')
+![Example Image](src/assets/Screenshot%202024-09-25%20at%2011.43.43.png)
+![Example Image](src/assets/Screenshot%202024-09-25%20at%2011.43.53.png)
+![Example Image](src/assets/Screenshot%202024-09-25%20at%2011.44.01.png)
 
 [Link Text](https://yousrweather.netlify.app/)
 
