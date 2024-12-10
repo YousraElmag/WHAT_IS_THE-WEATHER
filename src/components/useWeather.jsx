@@ -69,7 +69,7 @@ const useWeather = () => {
         const forecastList = response.data.list;
         const now = new Date();
         const tomorrow = new Date(now);
-        tomorrow.setDate(now.getDate() );
+        tomorrow.setDate(now.getDate()+1 );
         const tomorrowDateStr = tomorrow.toISOString().split('T')[0];
         setForecastTime(tomorrowDateStr)
         const tomorrowForecast = forecastList.filter((entry) => {
